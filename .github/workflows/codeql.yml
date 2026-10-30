@@ -9,7 +9,7 @@ on:
     - cron: 30 8 * * 1
 
 jobs:
-  analyze:
+  analyze: # gitea-mirror test
     runs-on: ubuntu-latest
     permissions:
       security-events: write
